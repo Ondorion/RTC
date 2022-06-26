@@ -42,10 +42,12 @@
         </nav>
 
         <div class="header-top__info">
-          <div class="header-top__adress">
+          <a href="#" class="header-top__adress">
+            <img src="images/icons/geo-icon1.svg" alt="">
             <span class="header-top__span">Московское шоссе, 41</span>
-          </div>
+          </a>
           <a href="tell:+78463727272" class="phone__link">
+            <img src="images/icons/phone-icon1.svg" alt="">
             +7 (846) 372-72-72
           </a>
         </div>
@@ -65,14 +67,20 @@
               сервиса
             </p>
           </div>
-          <a class="header-content__link" href="#">
-            Географический <br>
-            центр города
-          </a>
-          <a class="header-content__link" href="#">
-            Полный спектр <br>
-            профессиональных услуг
-          </a>
+          <div class="header-content__links">
+            <span>
+              <a class="header-content__link" href="#">
+                Географический <br>
+                центр города
+              </a>
+            </span>
+            <span>
+              <a class="header-content__link" href="#">
+                Полный спектр <br>
+                профессиональных услуг
+              </a>
+            </span>
+          </div>
         </div>
         <div class="header-content__bottom">
           <div class="header-content__bottom-left">
@@ -1037,8 +1045,8 @@
         </p>
         <div class="callback__inputs">
           <div class="callback__form">
-            <input class="callback__form-input " type="text" placeholder="Ваше имя">
-            <input class="callback__form-input type=" type="text" placeholder="Ваш телефон">
+            <input name="name" class="callback__form-input " type="text" placeholder="Ваше имя">
+            <input name="phone" class="callback__form-input type=" type="text" placeholder="Ваш телефон">
             <button class='callback__btn reviews__btn'>перезвоните мне</button>
 
             <div class="callback__checkbox">
